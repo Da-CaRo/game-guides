@@ -10,6 +10,16 @@
         "canBeNoped": false
     },
     {
+        "id": "imploding-kitten",
+        "show": true,
+        "name": "Imploding Kitten",
+        "image": "img/exploding-kittens/card-icons/imploding-kitten.png",
+        "description": "Si robas esta carta, la primera vez se pone boca arriba. La segunda vez, explotas y no puede ser desactivada.",
+        "detailedDescription": "La primera vez que se roba, se coloca boca arriba en el mazo. Si alguien la roba boca arriba, explota y no puede usar Defuse. El jugador queda eliminado.",
+        "isNow": false,
+        "canBeNoped": false
+    },
+    {
         "id": "defuse",
         "show": true,
         "name": "Defuse",
@@ -20,32 +30,42 @@
         "canBeNoped": false
     },
     {
-        "id": "attack",
+        "id": "zombie-kitten",
         "show": true,
-        "name": "Attack",
-        "image": "img/exploding-kittens/card-icons/attack-2x.png",
-        "description": "Termina tu turno sin robar y obliga al siguiente jugador a tomar dos turnos seguidos.",
-        "detailedDescription": "Cuando juegas un Attack, tu turno termina sin robar carta y el siguiente jugador debe tomar dos turnos seguidos. Puede evitar uno de los turnos usando otra carta Attack.",
+        "name": "Zombie Kitten",
+        "image": "img/exploding-kittens/card-icons/zombie-kitten.png",
+        "description": "Si robas esta carta, puedes revivir a un jugador eliminado.",
+        "detailedDescription": "Al jugar Zombie Kitten, puedes devolver a un jugador eliminado a la partida. Consulta el reglamento para restricciones y efectos secundarios.",
+        "isNow": false,
+        "canBeNoped": false
+    },
+    {
+        "id": "nope",
+        "show": true,
+        "name": "Nope",
+        "image": "img/exploding-kittens/card-icons/nope.png",
+        "description": "Cancela la acción de otro jugador.",
+        "detailedDescription": "Juega esta carta en cualquier momento para cancelar la acción de otro jugador, excepto un Exploding Kitten o una carta Defuse. Los Nopes pueden encadenarse.",
         "isNow": true,
         "canBeNoped": true
     },
     {
-        "id": "skip",
+        "id": "rainbow-ralphing-cat",
         "show": true,
-        "name": "Skip",
-        "image": "img/exploding-kittens/card-icons/skip.png",
-        "description": "Termina tu turno sin robar carta.",
-        "detailedDescription": "Juega esta carta para terminar tu turno inmediatamente sin robar carta. Si debes tomar varios turnos, solo saltas uno por cada carta Skip jugada.",
+        "name": "Rainbow Ralphing Cat",
+        "image": "img/exploding-kittens/card-icons/rainbow-ralphing-cat.png",
+        "description": "Descripción corta.",
+        "detailedDescription": "Descripción larga y detallada.",
         "isNow": false,
         "canBeNoped": true
     },
     {
-        "id": "favor",
-        "show": false,
-        "name": "Favor",
-        "image": "img/exploding-kittens/card-icons/favor.png",
-        "description": "Elige un jugador para que te dé una carta de su mano.",
-        "detailedDescription": "Selecciona a un jugador, quien debe darte una carta de su mano a su elección. No puedes ver sus cartas antes de elegir.",
+        "id": "feral-cat",
+        "show": true,
+        "name": "Feral Cat",
+        "image": "img/exploding-kittens/card-icons/feral-cat.png",
+        "description": "Actúa como comodín para formar parejas de cartas.",
+        "detailedDescription": "Puedes usar Feral Cat como cualquier carta de gato para formar combinaciones.",
         "isNow": false,
         "canBeNoped": true
     },
@@ -60,7 +80,137 @@
         "canBeNoped": true
     },
     {
-        "id": "see-the-future",
+        "id": "shuffle-now",
+        "show": true,
+        "name": "Shuffle NOW",
+        "image": "img/exploding-kittens/card-icons/shuffle-now.png",
+        "description": "Descripción corta.",
+        "detailedDescription": "Descripción larga y detallada.",
+        "isNow": true,
+        "canBeNoped": true
+    },
+    {
+        "id": "skip",
+        "show": true,
+        "name": "Skip",
+        "image": "img/exploding-kittens/card-icons/skip.png",
+        "description": "Termina tu turno sin robar carta.",
+        "detailedDescription": "Juega esta carta para terminar tu turno inmediatamente sin robar carta. Si debes tomar varios turnos, solo saltas uno por cada carta Skip jugada.",
+        "isNow": false,
+        "canBeNoped": true
+    },
+    {
+        "id": "super-skip",
+        "show": true,
+        "name": "Super Skip",
+        "image": "img/exploding-kittens/card-icons/super-skip.png",
+        "description": "Termina tu turno y evita todas las acciones obligatorias.",
+        "detailedDescription": "Al jugar Super Skip, tu turno termina y no tienes que realizar ninguna acción obligatoria, como robar cartas adicionales.",
+        "isNow": false,
+        "canBeNoped": true
+    },
+    {
+        "id": "reverse",
+        "show": true,
+        "name": "Reverse",
+        "image": "img/exploding-kittens/card-icons/reverse.png",
+        "description": "Invierte el orden de juego.",
+        "detailedDescription": "Al jugar Reverse, el sentido de juego cambia (de horario a antihorario o viceversa). Consulta el reglamento para detalles.",
+        "isNow": false,
+        "canBeNoped": true
+    },
+    {
+        "id": "swap-top-and-bottom",
+        "show": true,
+        "name": "Swap Top and Bottom",
+        "image": "img/exploding-kittens/card-icons/swap-top-and-bottom.png",
+        "description": "Intercambia la carta superior e inferior del mazo.",
+        "detailedDescription": "Al jugar esta carta, la carta superior y la inferior del mazo cambian de lugar. Útil para manipular el mazo.",
+        "isNow": false,
+        "canBeNoped": true
+    },
+    {
+        "id": "draw-from-the-bottom",
+        "show": true,
+        "name": "Draw from the Bottom",
+        "image": "img/exploding-kittens/card-icons/draw-from-the-bottom.png",
+        "description": "Roba una carta de la parte inferior del mazo.",
+        "detailedDescription": "En vez de robar de la parte superior, puedes robar la carta inferior del mazo. Útil para evitar Exploding Kittens.",
+        "isNow": false,
+        "canBeNoped": true
+    },
+    {
+        "id": "favor",
+        "show": false,
+        "name": "Favor",
+        "image": "img/exploding-kittens/card-icons/favor.png",
+        "description": "Elige un jugador para que te dé una carta de su mano.",
+        "detailedDescription": "Selecciona a un jugador, quien debe darte una carta de su mano a su elección. No puedes ver sus cartas antes de elegir.",
+        "isNow": false,
+        "canBeNoped": true
+    },
+    {
+        "id": "i-ll-take-that",
+        "show": true,
+        "name": "I'll Take That",
+        "image": "img/exploding-kittens/card-icons/i-ll-take-that.png",
+        "description": "Descripción corta.",
+        "detailedDescription": "Descripción larga y detallada.",
+        "isNow": false,
+        "canBeNoped": true
+    },
+    {
+        "id": "clone",
+        "show": true,
+        "name": "Clone",
+        "image": "img/exploding-kittens/card-icons/clone.png",
+        "description": "Copia el efecto de otra carta jugada.",
+        "detailedDescription": "Permite copiar el efecto de la última carta jugada por cualquier jugador. Consulta el reglamento para restricciones.",
+        "isNow": false,
+        "canBeNoped": true
+    },
+    {
+        "id": "attack-2x",
+        "show": true,
+        "name": "Attack",
+        "image": "img/exploding-kittens/card-icons/attack-2x.png",
+        "description": "Termina tu turno sin robar y obliga al siguiente jugador a tomar dos turnos seguidos.",
+        "detailedDescription": "Cuando juegas un Attack, tu turno termina sin robar carta y el siguiente jugador debe tomar dos turnos seguidos. Puede evitar uno de los turnos usando otra carta Attack.",
+        "isNow": false,
+        "canBeNoped": true
+    },
+    {
+        "id": "targeted-attack-2x",
+        "show": true,
+        "name": "Targeted Attack 2x",
+        "image": "img/exploding-kittens/card-icons/targeted-attack-2x.png",
+        "description": "Descripción corta.",
+        "detailedDescription": "Descripción larga y detallada.",
+        "isNow": false,
+        "canBeNoped": true
+    },
+    {
+        "id": "personal-attack-3x",
+        "show": true,
+        "name": "Personal Attack 3x",
+        "image": "img/exploding-kittens/card-icons/personal-attack-3x.png",
+        "description": "Descripción corta.",
+        "detailedDescription": "Descripción larga y detallada.",
+        "isNow": false,
+        "canBeNoped": true
+    },
+    {
+        "id": "attack-of-the-dead",
+        "show": true,
+        "name": "Attack of the Dead",
+        "image": "img/exploding-kittens/card-icons/attack-of-the-dead.png",
+        "description": "Descripción corta.",
+        "detailedDescription": "Descripción larga y detallada.",
+        "isNow": false,
+        "canBeNoped": true
+    },
+    {
+        "id": "see-the-future-3x",
         "show": true,
         "name": "See the Future",
         "image": "img/exploding-kittens/card-icons/see-the-future-3x.png",
@@ -70,13 +220,233 @@
         "canBeNoped": true
     },
     {
-        "id": "nope",
+        "id": "see-the-future-5x",
         "show": true,
-        "name": "Nope",
-        "image": "img/exploding-kittens/card-icons/nope.png",
-        "description": "Cancela la acción de otro jugador.",
-        "detailedDescription": "Juega esta carta en cualquier momento para cancelar la acción de otro jugador, excepto un Exploding Kitten o una carta Defuse. Los Nopes pueden encadenarse.",
+        "name": "See the Future 5x",
+        "image": "img/exploding-kittens/card-icons/see-the-future-5x.png",
+        "description": "Mira las cinco primeras cartas del mazo.",
+        "detailedDescription": "Permite ver las próximas cinco cartas del mazo sin alterar su orden. Útil para planear tu estrategia.",
+        "isNow": false,
+        "canBeNoped": true
+    },
+    {
+        "id": "share-the-future-3x",
+        "show": true,
+        "name": "Share the Future 3x",
+        "image": "img/exploding-kittens/card-icons/share-the-future-3x.png",
+        "description": "Descripción corta.",
+        "detailedDescription": "Descripción larga y detallada.",
+        "isNow": false,
+        "canBeNoped": true
+    },
+    {
+        "id": "reveal-the-future-3x",
+        "show": true,
+        "name": "Reveal the Future 3x",
+        "image": "img/exploding-kittens/card-icons/reveal-the-future-3x.png",
+        "description": "Descripción corta.",
+        "detailedDescription": "Descripción larga y detallada.",
+        "isNow": false,
+        "canBeNoped": true
+    },
+    {
+        "id": "alter-the-future-3x",
+        "show": true,
+        "name": "Alter the Future 3x",
+        "image": "img/exploding-kittens/card-icons/alter-the-future-3x.png",
+        "description": "Mira y reordena las tres primeras cartas del mazo.",
+        "detailedDescription": "Permite ver y cambiar el orden de las tres primeras cartas del mazo. Puedes guardarla en la mano y jugarla en tu turno.",
+        "isNow": false,
+        "canBeNoped": true
+    },
+    {
+        "id": "alter-the-future-3x-now",
+        "show": true,
+        "name": "Alter the Future 3x NOW",
+        "image": "img/exploding-kittens/card-icons/alter-the-future-3x-now.png",
+        "description": "Efecto especial de la carta en el juego.",
+        "detailedDescription": "Esta carta tiene un efecto especial que puede cambiar el curso de la partida. Consulta las reglas para más detalles sobre su uso y estrategia.",
         "isNow": true,
+        "canBeNoped": true
+    },
+    {
+        "id": "alter-the-future-5x",
+        "show": true,
+        "name": "Alter the Future 5x",
+        "image": "img/exploding-kittens/card-icons/alter-the-future-5x.png",
+        "description": "Mira y reordena las cinco primeras cartas del mazo.",
+        "detailedDescription": "Permite ver y cambiar el orden de las cinco primeras cartas del mazo. Puedes guardarla en la mano y jugarla en tu turno.",
+        "isNow": false,
+        "canBeNoped": true
+    },
+    {
+        "id": "clairvoyance-now",
+        "show": true,
+        "name": "Clairvoyance NOW",
+        "image": "img/exploding-kittens/card-icons/clairvoyance-now.png",
+        "description": "Descripción corta.",
+        "detailedDescription": "Descripción larga y detallada.",
+        "isNow": true,
+        "canBeNoped": true
+    },
+    {
+        "id": "barking-kitten",
+        "show": true,
+        "name": "Barking Kitten",
+        "image": "img/exploding-kittens/card-icons/barking-kitten.png",
+        "description": "Descripción corta.",
+        "detailedDescription": "Descripción larga y detallada.",
+        "isNow": false,
+        "canBeNoped": true
+    },
+    {
+        "id": "tower-of-power",
+        "show": true,
+        "name": "Tower of Power",
+        "image": "img/exploding-kittens/card-icons/tower-of-power.png",
+        "description": "Descripción corta.",
+        "detailedDescription": "Descripción larga y detallada.",
+        "isNow": false,
+        "canBeNoped": true
+    },
+    {
+        "id": "streaking-kitten",
+        "show": true,
+        "name": "Streaking Kitten",
+        "image": "img/exploding-kittens/card-icons/streaking-kitten.png",
+        "description": "Descripción corta.",
+        "detailedDescription": "Descripción larga y detallada.",
+        "isNow": false,
         "canBeNoped": false
+    },
+    {
+        "id": "catomic-bomb",
+        "show": true,
+        "name": "Catomic Bomb",
+        "image": "img/exploding-kittens/card-icons/catomic-bomb.png",
+        "description": "Descripción corta.",
+        "detailedDescription": "Descripción larga y detallada.",
+        "isNow": false,
+        "canBeNoped": true
+    },
+    {
+        "id": "armageddon",
+        "show": true,
+        "name": "Armageddon",
+        "image": "img/exploding-kittens/card-icons/armageddon.png",
+        "description": "Descripción corta.",
+        "detailedDescription": "Descripción larga y detallada.",
+        "isNow": false,
+        "canBeNoped": true
+    },
+    {
+        "id": "godcat",
+        "show": true,
+        "name": "Godcat",
+        "image": "img/exploding-kittens/card-icons/godcat.png",
+        "description": "Descripción corta.",
+        "detailedDescription": "Descripción larga y detallada.",
+        "isNow": false,
+        "canBeNoped": true
+    },
+    {
+        "id": "devilcat",
+        "show": true,
+        "name": "Devilcat",
+        "image": "img/exploding-kittens/card-icons/devilcat.png",
+        "description": "Descripción corta.",
+        "detailedDescription": "Descripción larga y detallada.",
+        "isNow": false,
+        "canBeNoped": true
+    },
+    {
+        "id": "mark",
+        "show": true,
+        "name": "Mark",
+        "image": "img/exploding-kittens/card-icons/mark.png",
+        "description": "Descripción corta.",
+        "detailedDescription": "Descripción larga y detallada.",
+        "isNow": false,
+        "canBeNoped": true
+    },
+    {
+        "id": "curse-of-the-cat-butt",
+        "show": true,
+        "name": "Curse of the Cat Butt",
+        "image": "img/exploding-kittens/card-icons/curse-of-the-cat-butt.png",
+        "description": "Descripción corta.",
+        "detailedDescription": "Descripción larga y detallada.",
+        "isNow": false,
+        "canBeNoped": true
+    },
+    {
+        "id": "garbage-collection",
+        "show": true,
+        "name": "Garbage Collection",
+        "image": "img/exploding-kittens/card-icons/garbage-collection.png",
+        "description": "Descripción corta.",
+        "detailedDescription": "Descripción larga y detallada.",
+        "isNow": false,
+        "canBeNoped": true
+    },
+    {
+        "id": "feed-the-dead-now",
+        "show": true,
+        "name": "Feed the Dead NOW",
+        "image": "img/exploding-kittens/card-icons/feed-the-dead-now.png",
+        "description": "Descripción corta.",
+        "detailedDescription": "Descripción larga y detallada.",
+        "isNow": true,
+        "canBeNoped": true
+    },
+    {
+        "id": "grave-robber",
+        "show": true,
+        "name": "Grave Robber",
+        "image": "img/exploding-kittens/card-icons/grave-robber.png",
+        "description": "Descripción corta.",
+        "detailedDescription": "Descripción larga y detallada.",
+        "isNow": false,
+        "canBeNoped": true
+    },
+    {
+        "id": "potluck",
+        "show": true,
+        "name": "Potluck",
+        "image": "img/exploding-kittens/card-icons/potluck.png",
+        "description": "Descripción corta.",
+        "detailedDescription": "Descripción larga y detallada.",
+        "isNow": false,
+        "canBeNoped": true
+    },
+    {
+        "id": "bury",
+        "show": true,
+        "name": "Bury",
+        "image": "img/exploding-kittens/card-icons/bury.png",
+        "description": "Descripción corta.",
+        "detailedDescription": "Descripción larga y detallada.",
+        "isNow": false,
+        "canBeNoped": true
+    },
+    {
+        "id": "dig-deeper",
+        "show": true,
+        "name": "Dig Deeper",
+        "image": "img/exploding-kittens/card-icons/dig-deeper.png",
+        "description": "Descripción corta.",
+        "detailedDescription": "Descripción larga y detallada.",
+        "isNow": false,
+        "canBeNoped": true
+    },
+    {
+        "id": "raising-heck",
+        "show": true,
+        "name": "Raising Heck",
+        "image": "img/exploding-kittens/card-icons/raising-heck.png",
+        "description": "Descripción corta.",
+        "detailedDescription": "Descripción larga y detallada.",
+        "isNow": false,
+        "canBeNoped": true
     }
 ]
