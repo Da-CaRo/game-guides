@@ -1,0 +1,82 @@
+[
+    {
+        "id": "exploding-kitten",
+        "show": true,
+        "name": "Exploding Kitten",
+        "image": "img/exploding-kittens/card-icons/exploding-kitten.png",
+        "description": "Si robas esta carta y no tienes un Defuse, explotas y quedas eliminado.",
+        "detailedDescription": "Cuando robas un Exploding Kitten, debes mostrarlo inmediatamente. Si tienes una carta Defuse, puedes usarla para evitar explotar y colocar el Exploding Kitten en cualquier parte del mazo. Si no tienes Defuse, quedas fuera del juego.",
+        "isNow": false,
+        "canBeNoped": false
+    },
+    {
+        "id": "defuse",
+        "show": true,
+        "name": "Defuse",
+        "image": "img/exploding-kittens/card-icons/defuse.png",
+        "description": "Desactiva un Exploding Kitten y vuelve a meterlo en el mazo donde quieras.",
+        "detailedDescription": "La carta Defuse es la única forma de evitar explotar al robar un Exploding Kitten. Después de usarla, coloca el Exploding Kitten en cualquier lugar del mazo, incluso en la parte superior o inferior.",
+        "isNow": false,
+        "canBeNoped": false
+    },
+    {
+        "id": "attack",
+        "show": true,
+        "name": "Attack",
+        "image": "img/exploding-kittens/card-icons/attack-2x.png",
+        "description": "Termina tu turno sin robar y obliga al siguiente jugador a tomar dos turnos seguidos.",
+        "detailedDescription": "Cuando juegas un Attack, tu turno termina sin robar carta y el siguiente jugador debe tomar dos turnos seguidos. Puede evitar uno de los turnos usando otra carta Attack.",
+        "isNow": true,
+        "canBeNoped": true
+    },
+    {
+        "id": "skip",
+        "show": true,
+        "name": "Skip",
+        "image": "img/exploding-kittens/card-icons/skip.png",
+        "description": "Termina tu turno sin robar carta.",
+        "detailedDescription": "Juega esta carta para terminar tu turno inmediatamente sin robar carta. Si debes tomar varios turnos, solo saltas uno por cada carta Skip jugada.",
+        "isNow": false,
+        "canBeNoped": true
+    },
+    {
+        "id": "favor",
+        "show": false,
+        "name": "Favor",
+        "image": "img/exploding-kittens/card-icons/favor.png",
+        "description": "Elige un jugador para que te dé una carta de su mano.",
+        "detailedDescription": "Selecciona a un jugador, quien debe darte una carta de su mano a su elección. No puedes ver sus cartas antes de elegir.",
+        "isNow": false,
+        "canBeNoped": true
+    },
+    {
+        "id": "shuffle",
+        "show": true,
+        "name": "Shuffle",
+        "image": "img/exploding-kittens/card-icons/shuffle.png",
+        "description": "Baraja el mazo.",
+        "detailedDescription": "Mezcla todas las cartas del mazo, incluyendo las cartas especiales que hayan sido colocadas recientemente.",
+        "isNow": false,
+        "canBeNoped": true
+    },
+    {
+        "id": "see-the-future",
+        "show": true,
+        "name": "See the Future",
+        "image": "img/exploding-kittens/card-icons/see-the-future-3x.png",
+        "description": "Mira las tres primeras cartas del mazo.",
+        "detailedDescription": "Permite ver las próximas tres cartas del mazo sin alterar su orden. Puedes usar esta información para planear tus próximos movimientos.",
+        "isNow": false,
+        "canBeNoped": true
+    },
+    {
+        "id": "nope",
+        "show": true,
+        "name": "Nope",
+        "image": "img/exploding-kittens/card-icons/nope.png",
+        "description": "Cancela la acción de otro jugador.",
+        "detailedDescription": "Juega esta carta en cualquier momento para cancelar la acción de otro jugador, excepto un Exploding Kitten o una carta Defuse. Los Nopes pueden encadenarse.",
+        "isNow": true,
+        "canBeNoped": false
+    }
+]
