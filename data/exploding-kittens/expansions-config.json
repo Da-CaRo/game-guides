@@ -1,0 +1,34 @@
+[
+  {
+    "id": "base-game",
+    "name": "Exploding Kittens (Juego Base)",
+    "description": "El juego original con cartas clásicas y mecánicas básicas.",
+    "packs": [
+      {
+        "name": "Juego Base",
+        "cards": [
+          { "id": "exploding-kitten", "count": 4 },
+          { "id": "defuse", "count": 6 },
+          { "id": "nope", "count": 5 }
+          
+        ]
+      }
+    ]
+  },
+  {
+    "id": "imploding-kitten",
+    "name": "Imploding Kittens",
+    "description": "Primera expansión que añade nuevas cartas y mecánicas, incluyendo el Imploding Kitten.",
+    "packs": [
+      {
+        "name": "Imploding Kittens",
+        "cards": [
+          { "id": "imploding-kitten", "count": 1 },
+          { "id": "reverse", "count": 4 }
+          
+        ]
+      }
+    ]
+  }
+
+]
