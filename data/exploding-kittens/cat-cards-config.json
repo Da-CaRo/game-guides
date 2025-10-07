@@ -68,5 +68,25 @@
         "id": "troll-cat",
         "name": "Troll Cat",
         "image": "img/exploding-kittens/card-icons/cat-card-troll-cat.png"
+    },
+    {
+        "id": "cat-o-lantern",
+        "name": "Cat O Lantern",
+        "image": "img/exploding-kittens/card-icons/cat-card-cat-o-lantern.png"
+    },
+    {
+        "id": "de-cat-ipated",
+        "name": "De-Cat-Ipated",
+        "image": "img/exploding-kittens/card-icons/cat-card-de-cat-ipated.png"
+    },
+    {
+        "id": "electrocat",
+        "name": "Electrocat",
+        "image": "img/exploding-kittens/card-icons/cat-card-electrocat.png"
+    },
+    {
+        "id": "vampire-cat",
+        "name": "Vampire Cat",
+        "image": "img/exploding-kittens/card-icons/cat-card-vampire-cat.png"
     }
 ]

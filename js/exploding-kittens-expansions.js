@@ -3,15 +3,24 @@ document.addEventListener('DOMContentLoaded', function() {
     const container = document.getElementById('expansions-list');
     Promise.all([
         fetch('data/exploding-kittens/expansions-config.json').then(res => res.json()),
-        fetch('data/exploding-kittens/cards-config.json').then(res => res.json())
-    ]).then(([expansions, cardsConfig]) => {
+        fetch('data/exploding-kittens/cards-config.json').then(res => res.json()),
+        fetch('data/exploding-kittens/cat-cards-config.json').then(res => res.json())
+    ]).then(([expansions, cardsConfig, catCards]) => {
         const cardIconMap = {};
         const cardDataMap = {};
         cardsConfig.forEach(card => {
             cardIconMap[card.id] = card.image;
             cardDataMap[card.id] = card;
         });
-        renderExpansions(expansions, cardIconMap, cardDataMap, container);
+        // Añadir imágenes de cartas de gato específicas
+        const catCardDataMap = {};
+        catCards.forEach(cat => {
+            cardIconMap[cat.id] = cat.image;
+            catCardDataMap[cat.id] = cat;
+        });
+        // Guardar ids de cartas de gato
+        const catCardIds = new Set(catCards.map(cat => cat.id));
+        renderExpansions(expansions, cardIconMap, cardDataMap, container, catCardIds, catCardDataMap);
         setupModal();
     });
 });
@@ -45,7 +54,7 @@ function setupModal() {
     };
 }
 
-function renderExpansions(expansions, cardIconMap, cardDataMap, container) {
+function renderExpansions(expansions, cardIconMap, cardDataMap, container, catCardIds, catCardDataMap) {
     container.innerHTML = '';
     expansions.forEach(exp => {
         const expDiv = document.createElement('div');
@@ -75,6 +84,20 @@ function renderExpansions(expansions, cardIconMap, cardDataMap, container) {
     container.querySelectorAll('.card-icon[data-card-id]').forEach(el => {
         el.onclick = function() {
             const cardId = this.getAttribute('data-card-id');
+            if (catCardIds && catCardIds.has(cardId)) {
+                // Mostrar carta especial de gatos, pero con el icono y nombre de la carta seleccionada
+                const catCard = cardDataMap['cat-card'];
+                const selectedCat = catCardDataMap[cardId];
+                if (catCard && selectedCat) {
+                    // Clonar la info de catCard pero sobreescribir imagen y nombre
+                    const cardToShow = Object.assign({}, catCard, {
+                        image: selectedCat.image,
+                        name: selectedCat.name
+                    });
+                    showCardInfo(cardToShow);
+                }
+                return;
+            }
             const card = cardDataMap[cardId];
             if (card) showCardInfo(card);
         };

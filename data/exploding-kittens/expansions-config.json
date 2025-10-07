@@ -42,8 +42,24 @@
                         "count": 5
                     },
                     {
-                        "id": "cat-card",
-                        "count": 20
+                        "id": "beard-cat",
+                        "count": 4
+                    },
+                    {
+                        "id": "cattermelon",
+                        "count": 4
+                    },
+                    {
+                        "id": "hairy-potato-cat",
+                        "count": 4
+                    },
+                    {
+                        "id": "rainbow-ralphing-cat",
+                        "count": 4
+                    },
+                    {
+                        "id": "tacocat",
+                        "count": 4
                     }
                 ]
             },
@@ -85,8 +101,24 @@
                         "count": 5
                     },
                     {
-                        "id": "cat-card",
-                        "count": 20
+                        "id": "bikini-cat",
+                        "count": 4
+                    },
+                    {
+                        "id": "cat-s-schrodinger",
+                        "count": 4
+                    },
+                    {
+                        "id": "momma-cat",
+                        "count": 4
+                    },
+                    {
+                        "id": "shy-bladder-cat",
+                        "count": 4
+                    },
+                    {
+                        "id": "zombie-cat",
+                        "count": 4
                     }
                 ]
             },
@@ -128,8 +160,16 @@
                         "count": 3
                     },
                     {
-                        "id": "cat-card",
-                        "count": 12
+                        "id": "beard-cat",
+                        "count": 4
+                    },
+                    {
+                        "id": "rainbow-ralphing-cat",
+                        "count": 4
+                    },
+                    {
+                        "id": "tacocat",
+                        "count": 4
                     }
                 ]
             },
@@ -183,12 +223,28 @@
                         "count": 9
                     },
                     {
-                        "id": "cat-card",
-                        "count": 35
-                    },
-                    {
                         "id": "feral-cat",
                         "count": 6
+                    },
+                    {
+                        "id": "beard-cat",
+                        "count": 7
+                    },
+                    {
+                        "id": "cattermelon",
+                        "count": 7
+                    },
+                    {
+                        "id": "hairy-potato-cat",
+                        "count": 7
+                    },
+                    {
+                        "id": "rainbow-ralphing-cat",
+                        "count": 7
+                    },
+                    {
+                        "id": "tacocat",
+                        "count": 7
                     }
                 ]
             }
@@ -265,8 +321,24 @@
                         "count": 3
                     },
                     {
-                        "id": "cat-card",
-                        "count": 16
+                        "id": "feral-cat",
+                        "count": 4
+                    },
+                    {
+                        "id": "cat-o-lantern",
+                        "count": 4
+                    },
+                    {
+                        "id": "de-cat-ipated",
+                        "count": 4
+                    },
+                    {
+                        "id": "electrocat",
+                        "count": 4
+                    },
+                    {
+                        "id": "vampire-cat",
+                        "count": 4
                     }
                 ]
             }
@@ -455,14 +527,6 @@
                         "count": 4
                     },
                     {
-                        "id": "cat-card",
-                        "count": 16
-                    },
-                    {
-                        "id": "feral-cat",
-                        "count": 6
-                    },
-                    {
                         "id": "shuffle",
                         "count": 5
                     },
@@ -517,6 +581,26 @@
                     {
                         "id": "nope",
                         "count": 8
+                    },
+                    {
+                        "id": "feral-cat",
+                        "count": 6
+                    },
+                    {
+                        "id": "beard-cat",
+                        "count": 4
+                    },
+                    {
+                        "id": "rainbow-ralphing-cat",
+                        "count": 4
+                    },
+                    {
+                        "id": "tacocat",
+                        "count": 4
+                    },
+                    {
+                        "id": "zombie-cat",
+                        "count": 4
                     }
                 ]
             }
@@ -581,11 +665,23 @@
                         "count": 5
                     },
                     {
-                        "id": "cat-card",
-                        "count": 16
+                        "id": "feral-cat",
+                        "count": 4
                     },
                     {
-                        "id": "feral-cat",
+                        "id": "horse-cat",
+                        "count": 4
+                    },
+                    {
+                        "id": "knight-cat",
+                        "count": 4
+                    },
+                    {
+                        "id": "mercat",
+                        "count": 4
+                    },
+                    {
+                        "id": "troll-cat",
                         "count": 4
                     }
                 ]
