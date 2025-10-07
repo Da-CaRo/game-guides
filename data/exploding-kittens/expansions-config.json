@@ -505,6 +505,18 @@
                     {
                         "id": "i-ll-take-that",
                         "count": 4
+                    },
+                    {
+                        "id": "catomic-bomb",
+                        "count": 1
+                    },
+                    {
+                        "id": "bury",
+                        "count": 4
+                    },
+                    {
+                        "id": "nope",
+                        "count": 8
                     }
                 ]
             }
