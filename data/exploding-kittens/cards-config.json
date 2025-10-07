@@ -141,7 +141,7 @@
     },
     {
         "id": "favor",
-        "show": false,
+        "show": true,
         "name": "Favor",
         "image": "img/exploding-kittens/card-icons/favor.png",
         "description": "Un jugador debe darte una carta de su elección.",
