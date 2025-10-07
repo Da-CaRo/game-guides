@@ -51,7 +51,7 @@
     },
     {
         "id": "cat-card",
-        "show": true,
+        "show": false,
         "name": "Cat Card",
         "image": "img/exploding-kittens/card-icons/rainbow-ralphing-cat.png",
         "description": "Esta es una carta de gato y no tiene poder por sí sola. Juega dos gatos iguales como pareja para robar una carta al azar a otro jugador.",

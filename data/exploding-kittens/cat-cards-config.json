@@ -1,0 +1,72 @@
+[
+    {
+        "id": "beard-cat",
+        "name": "Beard Cat",
+        "image": "img/exploding-kittens/card-icons/cat-card-beard-cat.png"
+    },
+    {
+        "id": "cattermelon",
+        "name": "Cattermelon",
+        "image": "img/exploding-kittens/card-icons/cat-card-cattermelon.png"
+    },
+    {
+        "id": "hairy-potato-cat",
+        "name": "Hairy Potato Cat",
+        "image": "img/exploding-kittens/card-icons/cat-card-hairy-potato-cat.png"
+    },
+    {
+        "id": "rainbow-ralphing-cat",
+        "name": "Rainbow Ralphing Cat",
+        "image": "img/exploding-kittens/card-icons/cat-card-rainbow-ralphing-cat.png"
+    },
+    {
+        "id": "tacocat",
+        "name": "Tacocat",
+        "image": "img/exploding-kittens/card-icons/cat-card-tacocat.png"
+    },
+    {
+        "id": "bikini-cat",
+        "name": "Bikini Cat",
+        "image": "img/exploding-kittens/card-icons/cat-card-bikini-cat.png"
+    },
+    {
+        "id": "cat-s-schrodinger",
+        "name": "Cat S Schrodinger",
+        "image": "img/exploding-kittens/card-icons/cat-card-cat-s-schrodinger.png"
+    },
+    {
+        "id": "momma-cat",
+        "name": "Momma Cat",
+        "image": "img/exploding-kittens/card-icons/cat-card-momma-cat.png"
+    },
+    {
+        "id": "shy-bladder-cat",
+        "name": "Shy Bladder Cat",
+        "image": "img/exploding-kittens/card-icons/cat-card-shy-bladder-cat.png"
+    },
+    {
+        "id": "zombie-cat",
+        "name": "Zombie Cat",
+        "image": "img/exploding-kittens/card-icons/cat-card-zombie-cat.png"
+    },
+    {
+        "id": "horse-cat",
+        "name": "Horse Cat",
+        "image": "img/exploding-kittens/card-icons/cat-card-horse-cat.png"
+    },
+    {
+        "id": "knight-cat",
+        "name": "Knight Cat",
+        "image": "img/exploding-kittens/card-icons/cat-card-knight-cat.png"
+    },
+    {
+        "id": "mercat",
+        "name": "Mercat",
+        "image": "img/exploding-kittens/card-icons/cat-card-mercat.png"
+    },
+    {
+        "id": "troll-cat",
+        "name": "Troll Cat",
+        "image": "img/exploding-kittens/card-icons/cat-card-troll-cat.png"
+    }
+]
