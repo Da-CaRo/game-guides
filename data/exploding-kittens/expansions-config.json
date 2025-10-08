@@ -6,6 +6,7 @@
         "packs": [
             {
                 "name": "Juego Base",
+                "guideES": "https://cdn.svc.asmodee.net/production-asmodeees/uploads/2023/06/EKEK01ES_Instructions_ES_v2.pdf",
                 "icon": "img/exploding-kittens/expansion-icons/original-edition.webp",
                 "iconBg": "#861618",
                 "cards": [
@@ -65,6 +66,7 @@
             },
             {
                 "name": "NSFW",
+                "guideES": "https://cdn.svc.asmodee.net/production-asmodeees/uploads/2024/06/EKIEK02NES_Instructions_ES_v2.pdf",
                 "icon": "img/exploding-kittens/expansion-icons/nsfw.webp",
                 "iconBg": "#1e1c1a",
                 "cards": [
@@ -124,6 +126,7 @@
             },
             {
                 "name": "2 Jugadores",
+                "guideES": "https://cdn.svc.asmodee.net/production-asmodeees/uploads/2023/06/EKIEK09ES_Instructions_AMS_v2.pdf",
                 "icon": "img/exploding-kittens/expansion-icons/2-player-edition.webp",
                 "iconBg": "#861618",
                 "cards": [
@@ -175,6 +178,7 @@
             },
             {
                 "name": "Party Pack",
+                "guideES": "https://cdn.svc.asmodee.net/production-asmodeees/uploads/2023/06/EKG-PP_Instructions_V5_18MAY2023_ES_v3.pdf",
                 "icon": "img/exploding-kittens/expansion-icons/party-pack.webp",
                 "iconBg": "#690040",
                 "cards": [
@@ -257,6 +261,7 @@
         "packs": [
             {
                 "name": "Zombie Kittens",
+                "guideES": "https://cdn.svc.asmodee.net/production-asmodeees/uploads/2023/06/EKIEK10ES_Instructions_ES_v1.pdf",
                 "icon": "img/exploding-kittens/expansion-icons/zombie-kittens.webp",
                 "iconBg": "#bad434",
                 "cards": [
@@ -351,6 +356,7 @@
         "packs": [
             {
                 "name": "Imploding Kittens",
+                "guideES": "https://cdn.svc.asmodee.net/production-asmodeees/uploads/2023/06/EKG-1EXP_Instructions_01AUG2022_ES_v3.pdf",
                 "icon": "img/exploding-kittens/expansion-icons/imploding-kittens.webp",
                 "iconBg": "#282929",
                 "cards": [
@@ -382,6 +388,7 @@
             },
             {
                 "name": "Streaking Kittens",
+                "guideES": "https://cdn.svc.asmodee.net/production-asmodeees/uploads/2023/06/EKEK05EN_Instruction_ES_PRINT.pdf",
                 "icon": "img/exploding-kittens/expansion-icons/streaking-kittens.webp",
                 "iconBg": "#0d6938",
                 "cards": [
@@ -429,6 +436,7 @@
             },
             {
                 "name": "Barking Kittens",
+                "guideES": "https://cdn.svc.asmodee.net/production-asmodeees/uploads/2023/06/EKIEK07ES_Instructions_ES_v5.pdf",
                 "icon": "img/exploding-kittens/expansion-icons/barking-kittens.webp",
                 "iconBg": "#fef1d1",
                 "cards": [
@@ -479,6 +487,7 @@
         "packs": [
             {
                 "name": "Recetas del desastre",
+                "guideES": "https://cdn.svc.asmodee.net/production-asmodeees/uploads/2023/06/EKRFD01FR_Field_Guide_Instructions_ES_v1.pdf",
                 "icon": "img/exploding-kittens/expansion-icons/recipes-for-disaster.webp",
                 "iconBg": "#00152e",
                 "cards": [
@@ -613,6 +622,7 @@
         "packs": [
             {
                 "name": "Good vs Evil",
+                "guideES": "https://cdn.svc.asmodee.net/production-asmodeees/uploads/2023/06/EK-GVE-6_Instructions_09NOV2022_R2_ES_v2.pdf",
                 "icon": "img/exploding-kittens/expansion-icons/good-vs-evil.webp",
                 "iconBg": "#6d0e1f",
                 "cards": [
